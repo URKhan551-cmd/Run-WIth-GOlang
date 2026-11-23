@@ -1,0 +1,12 @@
+Compiled language:
+* Go tool can run file directly without VM
+* executables are different for OS, with GO OS give us much more things in hand.
+executables are exported at the compiled time.
+* system to web -- cloud
+GO is entirely a different language.
+OOP - yes or no 
+classes are not in GO there is STRUCT  which is alternative.
+
+By lookiing at the code what you see is about to happen. SIMPLICITY IS THERE IN GO.
+
+Missing =>  try/catch / no need semi colon  /  
