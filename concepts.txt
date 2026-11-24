@@ -10,3 +10,22 @@ classes are not in GO there is STRUCT  which is alternative.
 By lookiing at the code what you see is about to happen. SIMPLICITY IS THERE IN GO.
 
 Missing =>  try/catch / no need semi colon  /  
+
+
+Mostly bugs appears during conversion of integer instead of float
+the assignment tells us numMessagesFromDoris nust  be converted to float64
+
+totalCost := costPerMsg * float64(numMessagesFromDoris)
+
+costPerMsg := 0.02
+numMessagesFromDoris := 100
+
+totalCost = 0.02 * 100 = 2.00
+
+float64 convet the int to float 
+
+GO USE EXPLICIT TYPE Conversion.
+
+ 
+
+
